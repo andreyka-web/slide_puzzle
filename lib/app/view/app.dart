@@ -59,7 +59,7 @@ class _AppState extends State<App> {
 
     _platformHelper = widget._platformHelperFactory();
 
-    _timer = Timer(const Duration(milliseconds: 20), () {
+    _timer = Timer(const Duration(milliseconds: 15), () {
       for (var i = 1; i <= 15; i++) {
         precacheImage(
           Image.asset('assets/images/dashatar/green/$i.png').image,
